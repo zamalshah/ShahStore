@@ -1,0 +1,88 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        height: 80vh;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+
+}
+header{
+        height: 200px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#333;
+}
+.logo{
+        color: white;
+        padding: 20px;
+}
+#main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding: 20px 50px;
+        
+}
+.product img{
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+}
+.product{
+        padding: 20px;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* gap: 10px; */
+        justify-content: space-around;
+        border-radius: 20px;
+        box-shadow: 2px 3px #333;
+        background-color: #333;
+}
+.product button{
+        width: 180px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 800;
+        
+}
+.product button:hover{
+        background-color: rebeccapurple;
+        color: white;
+}
+.product h2{
+        color: white;
+        font-size: 20px;
+
+}
+.product p{
+        color: white;
+        font-size: 20px;
+        box-shadow: 2px 2px rebeccapurple;
+}
+
+/* sampleapi.com */
+footer{
+        /* border: 2px solid red; */
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        background-color: #333;
+        font-size: 20px;
+}
